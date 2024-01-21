@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Antykorekta</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script type="text/javascript" src="main.js"></script>
+<body>
+	<textarea id="inp" placeholder="Wpisz swój tekst (poprawną polszczyzną)" spellcheck="false"></textarea>
+	<br />
+	<br />
+	Normalna konwersja: <button id="btn" onclick="convert(false);">Konwertuj!</button>
+	<br /><br />
+	Z literówkami: <button id="btn2" onclick="convert(true);">Konwertuj!</button>
+	<input type="text" id="t_chance" value="40" title="szansa na literówkę (1/wpisana wartość)" />
+	<div id="box"><i>Tutaj będzie wynik...</i></div>
+</body>
+</html>
