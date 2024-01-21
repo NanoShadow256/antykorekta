@@ -1,0 +1,40 @@
+#inp {
+	width: 70vw;
+	height: 50vh;
+	border: solid 3px cornflowerblue;
+	border-radius: 3px;
+	background-color: skyblue;
+	padding: 5px;
+	resize: none;
+}
+
+#btn, #btn2 {
+	border: solid 5px cornflowerblue;
+	border-radius: 5px;
+	background-color: skyblue;
+	color: blue;
+	font-size: 0.5cm;
+}
+
+#box {
+	margin-top: 10px;
+	font-family: Verdana;
+	padding: 7px;
+	border: solid 3px cornflowerblue;
+	border-radius: 3px;
+	word-wrap: break-word;
+}
+
+#err {
+	color: red;
+}
+
+#t_chance {
+	cursor: help;
+	border: solid 5px cornflowerblue;
+	border-radius: 5px;
+	background-color: skyblue;
+	color: blue;
+	font-size: 0.5cm;
+	width: 3em;
+}
